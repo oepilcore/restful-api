@@ -11,7 +11,7 @@ func main() {
 	r.GET("/", func(c *gin.Context) {
 
 		c.JSON(http.StatusOK, gin.H{
-			"name":    "api server 1",
+			"name":    "api server 3",
 			"version": "v1.0",
 		})
 	})
